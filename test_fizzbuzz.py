@@ -9,3 +9,6 @@ def test_buzz():
 
 def test_fizzbuzz():
     assert fizzbuzz.fizzbuzz(15) == "FizzBuzz"
+
+def test_else():
+    assert fizzbuzz.fizzbuzz(19) == 19
