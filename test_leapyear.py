@@ -6,3 +6,6 @@ def test_divby4():
 
 def test_divby100():
     assert leapyear.leapyear(100) == True
+
+def test_divby400():
+    assert leapyear.leapyear(400) == True
