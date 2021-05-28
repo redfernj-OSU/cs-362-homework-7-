@@ -9,3 +9,6 @@ def test_divby100():
 
 def test_divby400():
     assert leapyear.leapyear(400) == True
+
+def test_other():
+    assert leapyear.leapyear(2019) == False
