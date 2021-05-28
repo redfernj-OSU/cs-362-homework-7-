@@ -1,5 +1,5 @@
-import fizbuzz
+import fizzbuzz
 import pytest
 
 def test_fizz():
-    assert fizbuzz.fizbuzz(3) == "Fizz"
+    assert fizzbuzz.fizzbuzz(3) == "Fizz"
